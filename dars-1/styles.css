@@ -1,0 +1,31 @@
+/* Tag orqali tanlash */
+/* body {
+  background-color: turquoise;
+} */
+/* 
+h1 {
+  color: red;
+}
+
+p {
+  color: violet;
+}
+
+a {
+  font-size: 25px;
+} */
+
+/* Class yoki Id orqali tanlash */
+
+.p-class {
+  font-weight: bold;
+  color: red;
+}
+
+#p-id {
+  color: blue;
+}
+
+#p-class--id {
+  color: blue;
+}
