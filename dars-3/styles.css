@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  height: 650px;
+  width: 700px;
+
+  background-color: antiquewhite;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#header {
+  height: 50px;
+  width: 100%;
+  background-color: aqua;
+  margin-bottom: 10px;
+}
+
+#main {
+  height: 30%;
+  background-color: aquamarine;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#main article {
+  height: 100%;
+  width: calc((100% - 20px) / 3);
+  display: inline-block;
+  background-color: burlywood;
+  margin-bottom: 10px;
+}
+
+#article-1 {
+  margin-right: 10px;
+}
+
+#article-2 {
+  margin-left: -4px;
+  margin-right: 10px;
+}
+#article-3 {
+  margin-left: -4px;
+}
