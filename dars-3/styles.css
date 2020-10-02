@@ -1,6 +1,4 @@
-*,
-*::after,
-*::before {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,9 +7,8 @@
 #wrapper {
   height: 650px;
   width: 700px;
-
   background-color: antiquewhite;
-  margin: 0 auto;
+  margin: 20px auto;
   padding: 10px;
 }
 
@@ -22,19 +19,23 @@
   margin-bottom: 10px;
 }
 
-#main {
+.main {
   height: 30%;
-  background-color: aquamarine;
-  margin-top: 0;
-  margin-bottom: 10px;
+  width: 100%;
+  background-color: red;
 }
 
-#main article {
+.main article {
   height: 100%;
+  /* width: 33.333333%; */
   width: calc((100% - 20px) / 3);
-  display: inline-block;
   background-color: burlywood;
-  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#article-2,
+#article-3 {
+  margin-left: -4px;
 }
 
 #article-1 {
@@ -42,9 +43,22 @@
 }
 
 #article-2 {
-  margin-left: -4px;
   margin-right: 10px;
 }
-#article-3 {
-  margin-left: -4px;
+
+/* Bu 
+#article-1 {
+  margin-right: 10px;
 }
+
+#article-2 {
+  margin-right: 10px;
+}
+
+/* .main article:first-child {
+  margin-right: 10px;
+}
+
+.main article:nth-child(2) {
+  margin-right: 10px;
+} */
