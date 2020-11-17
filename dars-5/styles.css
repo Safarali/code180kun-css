@@ -1,0 +1,77 @@
+.positions {
+    height: 100vh;
+    width: 600px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: auto;
+}
+
+body {
+    /* position: relative; */
+    background-color: burlywood;
+}
+
+/* Positions:
+
+static
+relative
+absolute
+fixed
+sticky */
+
+/* Offset
+top
+bottom
+right
+left */
+
+/* Static -- Hech nima o'zgarmaydi*/
+h1 {
+    position: static;
+    top: 20px;
+}
+
+/* Relative -- O'zgaradi, lekin boshqa elementlarga halaqit bermaydi*/
+#positions__relative {
+    background-color: blueviolet;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    /* margin-top: 50px; */
+}
+
+/* Absolute -- Pozitsiyasi absolute bo'lgan element o'z o'rnini yuqotadi*/
+
+button {
+    background-color: red;
+}
+
+#positions__absolute {
+    position: fixed;
+    top: 0px;
+    right: 0;
+    z-index: 2;
+}
+
+/* Fixed -- bir yerda turadi */
+
+button {
+    position: fixed;
+    top: 50%;
+
+    height: 300px;
+    width: 200px;
+    background-color: red;
+}
+
+/* Sticky */
+
+#navigation {
+    height: 40px;
+    width: 100%;
+    background-color: red;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
